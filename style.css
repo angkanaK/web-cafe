@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    /* ลองใส่แล้วดูผลว่า 3 ก้อนมันดีดแยกกันจริงไหม */
+    align-items: center;
+    /* จัดให้ความสูงมันเท่ากันกึ่งกลาง */
+    padding: 20px 5%;
+    /* ใช้ % เพื่อให้มันขยับตามหน้าจอ */
+}
+
+nav ul {
+    display: flex; /* สั่งให้ลูกๆ (li) เลิกซ้อนกัน แล้วมาเรียงแถวหน้ากระดาน */
+    list-style: none; /* เอาจุดดำๆ ออก */
+    gap: 20px; /* เว้นระยะห่างระหว่างเมนู */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.nav-login a{
+    text-decoration: none;
+}
