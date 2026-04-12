@@ -20,10 +20,15 @@
 - **Data Parsing:** การจัดการข้อมูล String และแปลงเป็น Number ด้วย `parseInt()` และ `.replace()`
 - **Problem Solving:** การแก้ปัญหา Layout พังจากการโหลดรูปภาพและการลำดับไฟล์ JavaScript
 
+## 🆕 อัปเดตล่าสุด (Latest Updates - Today)
+- [x] **Advanced Cart Logic:** พัฒนาระบบตะกร้าสินค้าให้สามารถเพิ่ม-ลดจำนวน (Quantity) ได้ในตัว
+- [x] **Dynamic Event Binding:** การจัดการ Event Listeners ให้กับ Element ที่สร้างขึ้นมาใหม่ (Dynamic elements)
+- [x] **Total Calculation Engine:** ระบบคำนวณราคาสุทธิแบบ Real-time ทั้งตอนเพิ่ม ลด และล้างตะกร้า
+- [x] **Checkout System:** ระบบสรุปยอดรวมพร้อมการรีเซ็ตข้อมูล (Clear Cart) หลังจบรายการ
+
 ## 🔮 แผนการพัฒนาในอนาคต (Roadmap)
 - [ ] เพิ่มระบบลบรายการอาหารออกจากตะกร้า (Remove Item)
 - [ ] ทำหน้าเว็บให้รองรับการแสดงผลบนมือถือ (Responsive Design)
-- [ ] เพิ่มระบบ Checkout และหน้าสรุปรายการสั่งซื้อที่สวยงามกว่าเดิม
 
 ## 🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
 - **HTML5:** โครงสร้างเว็บแบบ Semantic
