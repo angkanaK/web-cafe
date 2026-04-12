@@ -66,3 +66,22 @@ nav ul li a {
     border-radius: 10px 10px 0 0;
     margin-bottom: 15px;
 }
+
+.quantity-controls {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.quantity-controls button {
+    padding: 2px 8px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.quantity-controls button:hover {
+    background-color: #e0e0e0;
+}
