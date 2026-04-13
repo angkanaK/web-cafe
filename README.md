@@ -20,11 +20,17 @@
 - **Data Parsing:** การจัดการข้อมูล String และแปลงเป็น Number ด้วย `parseInt()` และ `.replace()`
 - **Problem Solving:** การแก้ปัญหา Layout พังจากการโหลดรูปภาพและการลำดับไฟล์ JavaScript
 
-## 🆕 อัปเดตล่าสุด (Latest Updates - Today)
+## 🆕 อัปเดตล่าสุด (Updates - 12 April 2026)
 - [x] **Advanced Cart Logic:** พัฒนาระบบตะกร้าสินค้าให้สามารถเพิ่ม-ลดจำนวน (Quantity) ได้ในตัว
 - [x] **Dynamic Event Binding:** การจัดการ Event Listeners ให้กับ Element ที่สร้างขึ้นมาใหม่ (Dynamic elements)
 - [x] **Total Calculation Engine:** ระบบคำนวณราคาสุทธิแบบ Real-time ทั้งตอนเพิ่ม ลด และล้างตะกร้า
 - [x] **Checkout System:** ระบบสรุปยอดรวมพร้อมการรีเซ็ตข้อมูล (Clear Cart) หลังจบรายการ
+
+## 🆕 อัปเดตล่าสุด (Updates - 13 April 2026)
+- [x] **Mobile-First Responsive Design:** ปรับปรุงโครงสร้างหน้าเว็บให้รองรับการแสดงผลบนสมาร์ทโฟนอย่างสมบูรณ์
+- [x] **CSS Media Queries Implementation:** ใช้ `@media (max-width: 768px)` เพื่อจัดการ Layout ให้ยืดหยุ่นตามขนาดหน้าจอ
+- [x] **Navigation Optimization:** ปรับปรุงส่วน Header และ Navigation Links ให้เรียงตัวสวยงามและกดง่ายบนหน้าจอสัมผัส
+- [x] **UI Alignment Fixes:** แก้ไขปัญหาเมนูอาหาร (Product Cards) ล้นจอ โดยการปรับการเรียงตัวจาก Multi-column เป็น Single-column
 
 ## 🔮 แผนการพัฒนาในอนาคต (Roadmap)
 - [ ] เพิ่มระบบลบรายการอาหารออกจากตะกร้า (Remove Item)

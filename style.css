@@ -1,17 +1,14 @@
 header {
     display: flex;
     justify-content: space-between;
-    /* ลองใส่แล้วดูผลว่า 3 ก้อนมันดีดแยกกันจริงไหม */
     align-items: center;
-    /* จัดให้ความสูงมันเท่ากันกึ่งกลาง */
     padding: 20px 5%;
-    /* ใช้ % เพื่อให้มันขยับตามหน้าจอ */
 }
 
 nav ul {
-    display: flex; /* สั่งให้ลูกๆ (li) เลิกซ้อนกัน แล้วมาเรียงแถวหน้ากระดาน */
-    list-style: none; /* เอาจุดดำๆ ออก */
-    gap: 20px; /* เว้นระยะห่างระหว่างเมนู */
+    display: flex;
+    list-style: none;
+    gap: 20px;
     padding: 0;
     margin: 0;
 }
@@ -84,4 +81,32 @@ nav ul li a {
 
 .quantity-controls button:hover {
     background-color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        justify-items: center;
+        gap: 20px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    aside,
+    .summary {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
 }
